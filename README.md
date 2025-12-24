@@ -1,81 +1,125 @@
-# Web-development-
-🌐 Web Development Project
-📖 Overview
-This project is a modern web application built with HTML, CSS, and JavaScript (and optionally frameworks like React, Angular, or Vue). It demonstrates responsive design, dynamic functionality, and best practices in web development.
+🔐 Login with OTP (Frontend Demo)
 
-🚀 Features
-Responsive design for mobile, tablet, and desktop
+A simple and responsive Login with OTP verification system built using HTML, CSS, and JavaScript.
+This project demonstrates how OTP-based login works on the frontend using a randomly generated OTP (demo purpose only).
 
-Modular and reusable components
+📌 Features
 
-REST API integration
+User login using:
 
-Authentication and user management
+Full Name
 
-Modern UI/UX with clean styling
+Email ID
 
-Easy deployment and scalability
+Contact Number
 
-🛠️ Tech Stack
-Frontend: HTML5, CSS3, JavaScript (ES6+), React (optional)
+Random 6-digit OTP generation
 
-Backend: Node.js, Express.js
+OTP verification screen
 
-Database: MongoDB / MySQL
+OTP sent success notification
 
-Version Control: Git & GitHub
+Login success popup with user name
 
-Deployment: Vercel / Netlify / Heroku
+Clean UI with gradient background
+
+Fully responsive design
+
+No backend required (Frontend demo)
+
+🛠️ Technologies Used
+
+HTML5 – Structure
+
+CSS3 – Styling & animations
+
+JavaScript (Vanilla JS) – OTP generation & validation
 
 📂 Project Structure
-Code
-├── public/          # Static files
-├── src/             # Source code
-│   ├── components/  # Reusable UI components
-│   ├── pages/       # Application pages
-│   ├── styles/      # CSS/SCSS files
-│   └── utils/       # Helper functions
-├── package.json     # Dependencies and scripts
-└── README.md        # Project documentation
-⚙️ Installation & Setup
-Clone the repository:
+Login-with-OTP/
+│
+├── index.html
+└── README.md
 
-bash
-git clone https://github.com/your-username/web-project.git
-Navigate to the project folder:
+🚀 How It Works
 
-bash
-cd web-project
-Install dependencies:
+User enters:
 
-bash
-npm install
-Run the development server:
+Full Name
 
-bash
-npm start
-🧪 Testing
-Run tests with:
+Email ID
 
-bash
-npm test
-📦 Deployment
-Push code to GitHub
+10-digit Contact Number
 
-Connect repository to Netlify/Vercel
+Click Send OTP
 
-Deploy automatically on new commits
+A 6-digit OTP is generated using JavaScript
 
-🤝 Contributing
-Contributions are welcome!
+OTP is shown on screen (demo purpose)
 
-Fork the repo
+User enters OTP and clicks Verify & Login
 
-Create a new branch (feature-xyz)
+If OTP is correct → Login successful popup appears
 
-Commit changes
+If OTP is incorrect → Error message is shown
 
-Open a Pull Request
+🔢 OTP Logic (Demo)
 
-📜 License
-This project is licensed under the MIT License.
+OTP is generated using:
+
+Math.floor(100000 + Math.random() * 900000)
+
+
+OTP is displayed on screen for learning/demo
+
+No real SMS or email service is used
+
+📷 Screens Included
+
+Login Form
+
+OTP Verification Screen
+
+OTP Sent Notification
+
+Login Success Popup
+
+⚠️ Important Note
+
+⚠️ This project is for learning and demonstration only.
+It does not include:
+
+Backend authentication
+
+Real SMS/Email OTP service
+
+Database storage
+
+For real-world use, integrate:
+
+Backend (Node.js / PHP / Python)
+
+SMS APIs (Twilio, Fast2SMS, etc.)
+
+Secure OTP handling
+
+✅ Use Cases
+
+College mini project
+
+Frontend practice
+
+JavaScript learning
+
+UI/UX demonstration
+
+GitHub portfolio project
+
+📄 License
+
+This project is free to use for educational purposes.
+
+👩‍💻 Author
+
+Anushka Jadhav
+Frontend Practice Project
